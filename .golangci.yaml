@@ -2,15 +2,15 @@ version: "2"
 
 run:
   timeout: 30m
-  skip-files:
-  - "api\\*.go$"
-  - "backend\\api\\*.go"
+  #skip-files:
+  #- "api\\*.go$"
+  #- "backend\\api\\*.go"
 
 issues:
   max-same-issues: 0
 
 linters:
-  disable-all: true
+  #disable-all: true
   enable: # please keep this alphabetized
     - gocritic
     - govet
@@ -26,7 +26,7 @@ linters:
         - "all"
 
 formatters:
-  disable-all: true
+  #disable-all: true
   enable:
     - gofmt
     - goimports
