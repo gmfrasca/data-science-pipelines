@@ -305,7 +305,7 @@ func (s *UpgradeTests) PreparePipelines() {
 		Body: &pipeline_model.V2beta1PipelineVersion{
 			DisplayName: "arguments",
 			PackageURL: &pipeline_model.V2beta1URL{
-				PipelineURL: "https://github.com/red-hat-data-services/data-science-pipelines/raw/refs/heads/rhoai-2.16/backend/test/v2/resources/arguments.pipeline.zip",
+				PipelineURL: "https://github.com/kubeflow/pipelines/raw/refs/tags/2.14.3/backend/test/v2/resources/arguments.pipeline.zip",
 			},
 			PipelineID: argumentUrlPipeline.PipelineID,
 		},
